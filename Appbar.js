@@ -1,4 +1,5 @@
-// find and fix the bug
+// find and fix the bug !
+// drawer is not opening is due to an issue, solve it ! 
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -53,7 +54,7 @@ function ResponsiveAppBar() {
     ) {
       return;
     }
-    setDrawerOpen(open);
+    setDrawerOpen(false);
   };
 
   const list = () => (
